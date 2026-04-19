@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 440px) {
+body {
+  max-width: 435px;
+  margin: 0 auto;
+  font-family: serif;
+  background: #f5f2ee;
+  color: #2b2b2b;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.logo {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.menu {
+  font-size: 24px;
+}
+
+/* HERO */
+.hero img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* ABOUT */
+.about {
+  background: #d9d0c6;
+  padding: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  background: #2f4f3e;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+  padding: 20px;
+  position: relative;
+}
+
+.services img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.services h2 {
+  position: absolute;
+  bottom: 80px;
+  left: 20px;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.services p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.packages {
+  padding: 20px;
+}
+
+/* ОДИН ПАКЕТ */
+.package {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+/* ЗЕЛЕНАЯ ПОЛОСКА */
+.line {
+  width: 6px;
+  background: #2f4f3e;
+  margin-right: 12px;
+}
+
+/* ТЕКСТ */
+.info h4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.info ul {
+  padding-left: 16px;
+  margin-bottom: 10px;
+}
+
+.info li {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* ЗАГОЛОВОК */
+.camera-title {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.portfolio {
+  padding: 20px;
+  background: #d9d0c6;
+}
+
+.portfolio h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.container {
+    width: 435px;
+    background: white;
+}
+
+.header-cnt {
+    background: #2f5f4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.question {
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer {
+    padding: 15px;
+    display: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 1px solid #999;
+    padding: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.about-me {
+  padding: 80px 20px;
+  background: url(./img/WhatsApp\ Image\ 2026-04-19\ at\ 00.10.15.jpeg);
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+}
+.container-me {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-me h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 600;
+    font-family: "Bad Script", cursive;
+  font-weight: 700;
+}
+
+.about-text-me {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+}
+.portfolio {
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video-item {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* важно! убирает растягивание */
+}
+.services h2 {
+  color: #ffffff;
+}
+}
